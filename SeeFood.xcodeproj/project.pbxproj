@@ -13,6 +13,8 @@
 		F016711F288AF91A005FECEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F016711D288AF91A005FECEE /* Main.storyboard */; };
 		F0167121288AF91D005FECEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0167120288AF91D005FECEE /* Assets.xcassets */; };
 		F0167124288AF91D005FECEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0167122288AF91D005FECEE /* LaunchScreen.storyboard */; };
+		F016712C288AF9F8005FECEE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F016712B288AF9F8005FECEE /* Resnet50.mlmodel */; };
+		F0C2965E288F159E00573750 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0C2965D288F159E00573750 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F0167120288AF91D005FECEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0167123288AF91D005FECEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0167125288AF91D005FECEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F016712B288AF9F8005FECEE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		F0C2965D288F159E00573750 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		F016710B288AF91A005FECEE = {
 			isa = PBXGroup;
 			children = (
+				F0C2965D288F159E00573750 /* README.md */,
 				F0167116288AF91A005FECEE /* SeeFood */,
 				F0167115288AF91A005FECEE /* Products */,
 			);
@@ -62,6 +67,7 @@
 				F016711D288AF91A005FECEE /* Main.storyboard */,
 				F0167120288AF91D005FECEE /* Assets.xcassets */,
 				F0167122288AF91D005FECEE /* LaunchScreen.storyboard */,
+				F016712B288AF9F8005FECEE /* Resnet50.mlmodel */,
 				F0167125288AF91D005FECEE /* Info.plist */,
 			);
 			path = SeeFood;
@@ -127,6 +133,7 @@
 			files = (
 				F0167124288AF91D005FECEE /* LaunchScreen.storyboard in Resources */,
 				F0167121288AF91D005FECEE /* Assets.xcassets in Resources */,
+				F0C2965E288F159E00573750 /* README.md in Resources */,
 				F016711F288AF91A005FECEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				F016711C288AF91A005FECEE /* ViewController.swift in Sources */,
 				F0167118288AF91A005FECEE /* AppDelegate.swift in Sources */,
+				F016712C288AF9F8005FECEE /* Resnet50.mlmodel in Sources */,
 				F016711A288AF91A005FECEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +177,7 @@
 		F0167126288AF91D005FECEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -230,6 +239,7 @@
 		F0167127288AF91D005FECEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
