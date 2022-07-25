@@ -4,5 +4,6 @@
 An app that will determine whether the photo shows a hot dog or not
 
 <h2>Goals</h2>
-+ Core ML learning
-+ Resnet50 model
+
+* Core ML learning
+* Resnet50 model
